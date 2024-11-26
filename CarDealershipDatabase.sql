@@ -63,5 +63,16 @@ INSERT INTO dealerships (name, address, phone) VALUES
 ('City Motors', '123 Main St', '123-456-7890'),
 ('Highway Autos', '456 Elm St', '987-654-3210');
 
+INSERT INTO vehicles (VIN, year, make, model, vehicleType, color, odometer, price, SOLD) VALUES
+('1HGBH41JXMN109186', 2020, 'Toyota', 'Camry', 'Sedan', 'White', 30000, 24000.00, FALSE),
+('2G1WF52E759379203', 2019, 'Honda', 'Civic', 'Sedan', 'Black', 25000, 20000.00, FALSE),
+('3N1CN7AP9HL811512', 2021, 'Nissan', 'Sentra', 'Sedan', 'Blue', 15000, 22000.00, TRUE),
+('5NPEB4AC8CH305982', 2022, 'Hyundai', 'Sonata', 'Sedan', 'Gray', 18000, 25000.00, FALSE),
+('WDBUF56J76A856529', 2018, 'Mercedes-Benz', 'C-Class', 'Sedan', 'Red', 40000, 30000.00, FALSE),
+('4T1BF1FK7FU059876', 2020, 'Toyota', 'Corolla', 'Sedan', 'Green', 20000, 18000.00, TRUE),
+('1J4FF48S7YL214632', 2021, 'Jeep', 'Cherokee', 'SUV', 'Yellow', 10000, 35000.00, FALSE),
+('WAUFFAFM6AA018570', 2019, 'Audi', 'A4', 'Sedan', 'Black', 22000, 32000.00, FALSE),
+('1C4RJFAG0FC641352', 2022, 'Dodge', 'Durango', 'SUV', 'Silver', 12000, 40000.00, TRUE),
+('2C3KA53G47H743215', 2021, 'Chrysler', '300', 'Sedan', 'Blue', 13000, 28000.00, FALSE);
 
 
