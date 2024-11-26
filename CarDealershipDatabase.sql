@@ -87,3 +87,9 @@ INSERT INTO inventory (dealership_id, VIN) VALUES
 (1, '1C4RJFAG0FC641352'),
 (2, '2C3KA53G47H743215');
 
+INSERT INTO sales_contracts (VIN, customer_name, sale_date, sale_price, SALES_TAX_RATE, RECORDING_FEE, processingFee, financeOption, salesTaxAmount) VALUES
+('1HGBH41JXMN109186', 'John Doe', '2024-01-01', 23000.00, 0.08, 300.00, 200.00, TRUE, 1840.00),
+('2G1WF52E759379203', 'Jane Smith', '2024-01-05', 19500.00, 0.07, 200.00, 150.00, FALSE, 1365.00);
+
+
+
