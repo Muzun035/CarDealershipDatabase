@@ -59,4 +59,9 @@ CREATE TABLE lease_contracts (
     FOREIGN KEY (VIN) REFERENCES vehicles(VIN)
 );
 
+INSERT INTO dealerships (name, address, phone) VALUES
+('City Motors', '123 Main St', '123-456-7890'),
+('Highway Autos', '456 Elm St', '987-654-3210');
+
+
 
