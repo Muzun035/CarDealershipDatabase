@@ -45,3 +45,18 @@ CREATE TABLE sales_contracts (
     FOREIGN KEY (VIN) REFERENCES vehicles(VIN)
 );
 
+CREATE TABLE lease_contracts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    VIN VARCHAR(17),
+    lessee_name VARCHAR(50),
+    lease_start_date DATE,
+    lease_end_date DATE,
+    LEASE_FEE_RATE DECIMAL(4, 2),
+    LEASE_INTEREST_RATE DECIMAL(4, 2),
+    LEASE_TERM INT,
+    expectedEndingValue DECIMAL(10, 2),
+    leaseFee DECIMAL(10, 2),
+    FOREIGN KEY (VIN) REFERENCES vehicles(VIN)
+);
+
+
