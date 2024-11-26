@@ -22,3 +22,11 @@ CREATE TABLE vehicles (
     price DECIMAL(10, 2),
     SOLD BOOLEAN DEFAULT FALSE
 );
+
+CREATE TABLE inventory (
+    dealership_id INT,
+    vin VARCHAR(17),
+    PRIMARY KEY (dealership_id, vin),
+    FOREIGN KEY (dealership_id) REFERENCES dealerships(dealership_id) ON DELETE CASCADE,
+    FOREIGN KEY (vin) REFERENCES vehicles(vin) ON DELETE CASCADE
+);
