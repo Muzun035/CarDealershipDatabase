@@ -91,5 +91,8 @@ INSERT INTO sales_contracts (VIN, customer_name, sale_date, sale_price, SALES_TA
 ('1HGBH41JXMN109186', 'John Doe', '2024-01-01', 23000.00, 0.08, 300.00, 200.00, TRUE, 1840.00),
 ('2G1WF52E759379203', 'Jane Smith', '2024-01-05', 19500.00, 0.07, 200.00, 150.00, FALSE, 1365.00);
 
+INSERT INTO lease_contracts (VIN, lessee_name, lease_start_date, lease_end_date, LEASE_FEE_RATE, LEASE_INTEREST_RATE, LEASE_TERM, expectedEndingValue, leaseFee) VALUES
+('3N1CN7AP9HL811512', 'Alice Brown', '2024-01-01', '2027-01-01', 0.03, 0.05, 36, 15000.00, 1000.00),
+('5NPEB4AC8CH305982', 'Bob White', '2024-02-01', '2026-02-01', 0.02, 0.04, 24, 18000.00, 1200.00);
 
 
